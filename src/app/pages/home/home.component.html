@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img class="logo" src="../../../assets/images/pj_logo.png" alt="PJ-OIL">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse fs-4 justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/Pocetna stranice-component" routerLinkActive="active">Početna stranica</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/O nama-component" routerLinkActive="active">O nama</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Usluge</a>
+          <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+            <a class="dropdown-item" href="#">Benziska postaja</a>
+            <a class="dropdown-item" routerLink="/Transport-component" routerLinkActive="active">Transport</a>
+            <a class="dropdown-item" href="https://www.plin-rab.com/">Dostava plina</a>
+            <a class="dropdown-item" href="#">Gumi servis</a>
+            <a class="dropdown-item" href="#">Kafić</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/kontakt-component" routerLinkActive="active">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+<!-- Logotipi -->
+<div class="text-center container mt-4">
+  <img class="me-4 mb-4" src="../../../assets/images/HAMAG-Bicro-logo-RGB-mali.jpg" alt="HAMAG-Bicro">
+  <img class="w-25 px-4 me-5 mb-4" src="../../../assets/images/EU-amblem.jpg" alt="EU">
+  <img class="w-25 mb-4" src="../../../assets/images/ESIF-FI-logo-korisnik.jpg" alt="ESIF-FI">
+</div>

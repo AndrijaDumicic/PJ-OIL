@@ -1,0 +1,16 @@
+.responsive-img {
+    width: 100%;
+}
+
+/* Za veće zaslone */
+@media (min-width: 768px) {
+    .responsive-img {
+        width: 75%;
+    }
+}
+
+@media (min-width: 992px) {
+    .responsive-img {
+        width: 50%;
+    }
+}

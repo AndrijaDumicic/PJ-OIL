@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterModule, RouterOutlet } from '@angular/router';
+import { HomeComponent } from './pages/home/home.component';
+import { KontaktComponent } from './pages/kontakt/kontakt.component';
+import { ONamaComponent } from './pages/o-nama/o-nama.component';
+import { PocetnaStranicaComponent } from './pages/pocetna-stranica/pocetna-stranica.component';
+import { TransportComponent } from './pages/transport/transport.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, HomeComponent,RouterModule, KontaktComponent, ONamaComponent, PocetnaStranicaComponent, TransportComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
