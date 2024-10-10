@@ -1,16 +1,49 @@
 /* src/styles.css */
-.arial {
-    font-family: Arial, Helvetica, sans-serif;
-  }
 
-.oswald{
-    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
-  font-weight: 100;
-  text-transform: uppercase;
-  font-size: 60px;
-  letter-spacing: 15px;
-  line-height: 1.4em;
+
+/* Opći stilovi za naslove */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif; /* Možete promijeniti font prema vašim željama */
+    text-transform: uppercase; /* Sva slova velika */
+    letter-spacing: 0.1rem; /* Razmak između slova */
+    margin: 1.25rem 0; /* Razmak iznad i ispod naslova (20px = 1.25rem) */
 }
+
+/* Stil za H1 */
+h1 {
+    font-size: 3rem; /* Velika veličina za H1 */
+    color: #c70039; /* Primjer boje naslova */
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.2); /* Sjena teksta */
+    transition: color 0.3s; /* Efekt prijelaza boje */
+    font-weight: 700;
+}
+
+/* Stil za H2 */
+h2 {
+    font-family: 'Arial', sans-serif; /* Moguće je promijeniti na drugi font po želji */
+    font-size: 2.5rem; /* Veličina H2 naslova */
+    color: #333; /* Tamna boja teksta */
+    text-transform: capitalize; /* Prvo slovo svake riječi veliko */
+    margin: 1.5rem 0; /* Razmak iznad i ispod H2 naslova */
+    letter-spacing: 0.05rem; /* Blagi razmak između slova */
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.1); /* Blaga sjena za efekat */
+}
+
+/* Stil za paragrafe */
+p {
+    font-family: 'Arial', sans-serif; /* Moguće je promijeniti na drugi font po želji */
+    font-size: 1.125rem; /* Veličina paragrafa */
+    color: #555; /* Svijetla tamna boja teksta */
+    line-height: 1.6; /* Visina linije za bolju čitljivost */
+    margin: 1rem 0; /* Razmak iznad i ispod paragrafa */
+    letter-spacing: 0.1rem; /* Blagi razmak između slova */
+}
+
+h1:hover {
+    color: #ff5733; /* Boja pri prelasku miša */
+}
+
+
 .red-border {
     border: 2px solid red  
 }
@@ -23,6 +56,13 @@
     font-size: 2.5rem; /* Osnovna veličina fonta */
 }
 
+.btn-danger {
+    font-weight: bold; /* Bold da tekst izgleda punije */
+    font-size: 1.1rem; /* Blago povećanje fonta za isticanje */
+    letter-spacing: 0.5px; /* Malo razmakni slova radi boljeg vizualnog dojma */
+    padding: 10px 20px; /* Dodatni padding za bolju čitljivost */
+    border-radius: 8px; /* Zaobljeni rubovi za moderniji izgled */
+}
 
 
 /* Manje veličine fonta za manje ekrane */

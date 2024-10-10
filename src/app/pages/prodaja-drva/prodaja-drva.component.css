@@ -1,0 +1,15 @@
+.bg-fire {
+    background-image: url('../../../assets/images/fire_theme.jpg'); /* Put the path to your image */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+
+}
+
+.bg-vilicar {
+    background-image: url('../../../assets/images/vilicar.jpg'); /* Put the path to your image */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    min-height:1043px;
+}

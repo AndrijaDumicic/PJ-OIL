@@ -1,0 +1,99 @@
+<div class="p-2">
+    <div class="container text-center bg-fire p-5 rounded">
+        <h1 class="responsive-title text-center text-white">
+            Prodaja drva
+        </h1>
+        <div class="row d-flex justify-content-center mx-2">
+            <div class="col-12 col-md mb-4">
+                <div class="card h-100 d-flex flex-column">
+                    <i class="bi bi-truck card-img-top fs-1 mt-4"></i>
+                    <hr class="mx-5">
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                        <h5 class="card-title mb-3">Brza i besplatna dostava</h5>
+                        <p class="card-text">Dostavljamo kupljenu robu svim klijentima na području otoka Raba u kratkom vremenu !</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md mb-4 ">
+                <div class="card h-100 d-flex flex-column">
+                    <i class="bi bi-cash-coin card-img-top fs-1 mt-4"></i>
+                    <hr class="mx-5">
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                        <h5 class="card-title mb-3">Pristupačna cijena</h5>
+                        <p class="card-text">Optimalan odnos cijene, usluge i kvalitete vrhunskih drva za ogrjev za svačije potrebe i džep !</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md mb-4">
+                <div class="card h-100 d-flex flex-column">
+                    <i class="bi bi-credit-card card-img-top fs-1 mt-4"></i>
+                    <hr class="mx-5">
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                        <h5 class="card-title mb-3">Mogućnost plaćanja karticom</h5>
+                        <p class="card-text">Nemate gotovine kod kuće ? Nema problema, svoja drva također možete platiti karticom !</p>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+</div>
+<div class="container text-center mt-5">
+    <p class="fs-2 mx-5 ">Ovaj izvor energije može se kupiti kod nas već iscijepano i 
+        ispiljeno na pripadajuću dužinu, a drva dolaze na paletama dimenzija 1 x 1 x 1,80 m.</p>
+    <hr class="mx-4">
+</div>
+
+<div class="container text-center mt-5">
+    <div class="row d-flex mx-2">
+        <div class="col-12 col-md mb-4">
+            <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                <p class="fs-3">Niske temperature, bura i kiša
+                    – sve nas to očekuje u nadolazećim zimskim danima. Zato, ne dopustite da Vam ponestane drva
+                     za ogrijev. Nazovite nas na 099 507 9389 i paletu drva za ogrijev 1 x 1 x 1.80 m besplatno 
+                     dostavljamo na Vašu kućnu adresu !</p>
+            </div>
+        </div>
+        <div class="col-12 col-md mb-4">
+            <div class="d-flex flex-column">
+                <img class="card-img-top p-3" src="../../../assets/images/paleta-drva.jpg" alt="paleta-drva">
+                <p class="fs-3">AKCIJA: Cijena palete 209.00 € + konverzija</p>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="container text-center mt-5">
+    <h2 class="">Zašto odabrati nas?</h2>
+    <hr class="mx-4">
+</div>
+<div class="p-2">
+    <div class="container px-3 bg-vilicar rounded position-relative">  
+        <div class="d-flex flex-column flex-md-row">
+            <p class="col-md-5 justify bg-white bg-opacity-75 p-3 rounded">
+                Grijanje na drva još uvijek je najpopularniji način grijanja a 
+                ujedno i jedan od trenutno povoljnijih izvora energije za lakše 
+                podnošenje zimskih uvjeta. Od sada, u našu bogatu ponudu upotpunili 
+                smo prodajom suhih paletiranih drva za ogrjev za koju također nudimo
+                 besplatnu uslugu dostave na području otoka Raba.
+            </p>
+        </div>
+        <div class="d-flex flex-column p-3">
+            <button class="btn btn-danger col-md-5" type="button"  data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" (click)="skladisteVisible= !skladisteVisible">Skladištenje drva za ogrjev  <i class="bi" [ngClass]="skladisteVisible ? 'bi-arrow-bar-up' : 'bi-arrow-bar-down' "  ></i></button>
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <p class="col-md-5 justify bg-white bg-opacity-75 p-3 rounded">Brinemo se da Vam na kućni prag dostavimo suha i kvalitetna paletirana drva za orgjev koja će hladne zimske dane učiniti toplijima i ugodnima Vama i Vašim najbližima.</p>
+                        </div>
+        </div>
+        <div class="d-flex flex-column p-3">
+            <button class="btn btn-danger col-md-5" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" (click)="dostavaVisible= !dostavaVisible">Brza i besplatna dostava  <i class="bi" [ngClass]="dostavaVisible ? 'bi-arrow-bar-up' : 'bi-arrow-bar-down' "></i></button>
+                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                <p class="col-md-5 justify bg-white bg-opacity-75 p-3 rounded">Vaše zadovoljstvo nam je na prvome mjestu stoga uvijek brinemo da u što kraćem roku stignemo do Vas ! Sa svojim i partnerskim voznim parkom u mogućnosti smo dostaviti paletirana drva na bilo koju lokaciju.</p>
+                        </div>
+        </div>
+        <div class="d-flex flex-column p-3">
+            <button class="btn btn-danger col-md-5" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3" (click)="cijenaVisible= !cijenaVisible">Optimalan odnos cijene, kvalitete i usluge  <i class="bi" [ngClass]="cijenaVisible ? 'bi-arrow-bar-up' : 'bi-arrow-bar-down' "></i></button>
+                        <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                <p class="col-md-5 justify bg-white bg-opacity-75 p-3 rounded">Profesionalan i stručan tim, paletirana drva vrhunske kvalitete, pristupačna cijena i briga za zadovoljstvo kupaca.</p>
+                        </div>
+        </div>
+    </div>
+</div>

@@ -15,3 +15,10 @@
     }
 }
 
+.bg-pump {
+    background-image: url('../../../assets/images/pumpa-lopar2.jpg'); /* Put the path to your image */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+
+}
