@@ -43,10 +43,10 @@ h1:hover {
     color: #ff5733; /* Boja pri prelasku miša */
 }
 
-
-.red-border {
-    border: 2px solid red  
+i{
+    font-size:2rem;
 }
+
 .justify {
     text-align: justify;
     text-justify: inter-word;

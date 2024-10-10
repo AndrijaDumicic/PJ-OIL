@@ -1,0 +1,7 @@
+.bg-pocetna {
+    background-image: url('../../../assets/images/pumpa-lopar3.jpg'); /* Put the path to your image */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    min-height:1110px;
+}
