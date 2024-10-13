@@ -7,11 +7,13 @@ import { PocetnaStranicaComponent } from './pages/pocetna-stranica/pocetna-stran
 import { TransportComponent } from './pages/transport/transport.component';
 import { CaffeBarComponent } from './pages/caffe-bar/caffe-bar.component';
 import { ProdajaDrvaComponent } from './pages/prodaja-drva/prodaja-drva.component';
+import { BenzinskaPostajaComponent } from './pages/benzinska-postaja/benzinska-postaja.component';
+import { GumiServisComponent } from './pages/gumi-servis/gumi-servis.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, RouterLinkActive, HomeComponent,RouterModule, KontaktComponent, ONamaComponent, PocetnaStranicaComponent, TransportComponent,CaffeBarComponent,ProdajaDrvaComponent],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, HomeComponent,RouterModule, KontaktComponent, ONamaComponent, PocetnaStranicaComponent, TransportComponent,CaffeBarComponent,ProdajaDrvaComponent, BenzinskaPostajaComponent, GumiServisComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -1,0 +1,480 @@
+<div class="container text-center">
+        <i class="bi bi-fuel-pump fs-1"></i>
+        <h1 class="responsive-title">PJ-OIL</h1>
+        <hr class="mt-2">
+        
+
+        <div class="row">
+            <div class="col-12 col-md-5 mt-4">
+                <div class="">
+                    <img class="rounded w-75" src="../../../assets/images/discount-card.png" alt="Discount-card">
+                    <a href="../../../assets/documents/Pristupnica-za-stjecanje-pj-oil-discount-kartice-1.pdf" download class="btn btn-danger d-flex justify-content-between align-items-center d-block mt-2 mx-auto w-25">
+                        <span>Preuzmi PDF</span>
+                        <i class="bi bi-file-earmark-pdf"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-7 mt-4">
+                <div class="">
+                    <video controls  class="rounded w-75" poster="../../../assets/images/PJ-logo.png">
+                        <source src="../../../assets/videos/PJ-Oil-HD.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div> 
+        
+        
+        
+        <div class="container text-center">
+            <div class="row justify">
+                <div class="col-12 col-md mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="card-img-top" src="../../../assets/images/eurosuper-95.jpg" alt="eurosuper-95">
+                            <p class="card-text">Eurosuper 95 je gorivo visoke kvalitete koje odgovara 
+                                najvišim europskim standardima EN 228. Zbog niskog udjela sumpora i olova
+                                naziva se bezsumporni i bezolovni motorni benzin.</p>
+                        </div>
+                        <div class="d-flex flex-column p-3">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#eurosuperFeatures" aria-expanded="false" aria-controls="eurosuperFeatures" (click)="isEurosuperVisible = !isEurosuperVisible">
+                                <span>Karakteristike proizvoda:</span>
+                                <i class="bi" [ngClass]="isEurosuperVisible ? 'bi-arrow-bar-up' : 'bi-arrow-bar-down'"></i>
+                            </button>
+                            <div class="collapse multi-collapse" id="eurosuperFeatures">
+                                <ul>
+                                    <li>Sumpor ima manje od 10 ppm (mg/kg), što osigurava visoku učinkovitost rada sustava za obradu ispušnih plinova.</li>
+                                    <li>Sadržaj olefina i aromata je niži od dopuštenih vrijednosti prema normi EN 228, što smanjuje rizik od taloga u motoru pri višim vrijednostima.</li>
+                                    <li>Tlak para je dovoljno visok za lako paljenje motora, bez obzira na stanje motora (hladan ili zagrijan).</li>
+                                    <li>Tlak pare ne prelazi dozvoljenu granicu isparljivosti, što smanjuje emisiju štetnih plinova i negativan utjecaj na okoliš.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column p-3">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#xMileSuper" aria-expanded="false" aria-controls="xMileSuper" (click)="isXMileSuperVisible = !isXMileSuperVisible">
+                                <span>Karakteristike aditiva XMILE:</span>
+                                <i class="bi" [ngClass]="isXMileSuperVisible ? 'bi-arrow-bar-up' : 'bi-arrow-bar-down'"></i>
+                            </button>
+                            <div class="collapse multi-collapse" id="xMileSuper">
+                                <ul>
+                                    <li><strong>ČISTI OKOLIŠ</strong> – XMILE je certificirani smanjivač emisije štetnih plinova, do čak 3000 g CO2 po spremniku.</li>
+                                    <li><strong>ČISTI MOTOR</strong> – Bolje sagorijevanje znači čišći motor, ventil, filter i katalizator.</li>
+                                    <li><strong>VIŠE KILOMETARA</strong> – Do čak 100 km više s jednim spremnikom.</li>
+                                    <li><strong>MANJE ČAĐE</strong> – Do čak 80% manje čađe, nema više crnog dima.</li>
+                                    <li><strong>ISPLATIVOST</strong> – Uzmite najviše za svoj novac, XMILE čisti Lijepu našu i smanjuje Vaše troškove prijevoza.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="card-img-top" src="../../../assets/images/autoplin-lpg.jpg" alt="autoplin-lpg">
+                            <p class="card-text">Autoplin je ukapljeni naftni plin ( UNP za motorna vozila ) koji je posebno prilagođen upotrebi u vozila. Zbog svojje ekonomičnosti i ekoloških svojstva sve se veći broj vozača odlučuje na korištenje autplina. Korištenje autoplina doprinosi smanjenju emisije CO2 i istovremeno reducira financijske troškove.</p>
+                        </div>
+                        <div class="d-flex flex-column p-3">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#ekoloskePrednosti" aria-expanded="false" aria-controls="ekoloskePrednosti" (click)="isEkoPrednostiVisible = !isEkoPrednostiVisible">
+                                <span>Ekološke prednosti autoplina:</span>
+                                <i class="bi" [ngClass]="isEkoPrednostiVisible ? 'bi-arrow-bar-up' : 'bi-arrow-bar-down'"></i>
+                            </button>
+                            <div class="collapse multi-collapse" id="ekoloskePrednosti">
+                                <ul>
+                                    <li>50% manje ugljičnog monoksida</li>
+                                    <li>10-16% manje ugljičnog dioksida</li>
+                                    <li>40% manje dušičnih oksida</li>
+                                    <li>87% manje utjecaja na oblikovanje ozona</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column p-3">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#ekonomskePrednosti" aria-expanded="false" aria-controls="ekonomskePrednosti" (click)="isEkonomskePrednostiVisible = !isEkonomskePrednostiVisible">
+                                <span>Ekonomične prednosti autoplina:</span>
+                                <i class="bi" [ngClass]="isEkonomskePrednostiVisible ? 'bi-arrow-bar-up' : 'bi-arrow-bar-down'"></i>
+                            </button>
+                            <div class="collapse multi-collapse" id="ekonomskePrednosti">
+                                <ul>
+                                    <li>Do 50% jeftinija vožnja u odnosu na benzin</li>
+                                    <li>Kratak vremenski period povrata investicije</li>
+                                    <li>Znatno dulji životni vijek motora i katalizatora</li>
+                                    <li>Jednostavna i brza ugradnja</li>
+                                    <li>Postizanje većih udaljenosti s jednim punjenjem uz upotrebu plina i benzina</li>
+                                    <li>Potpunije izgaranje smjese</li>
+                                    <li>Veća snaga motora</li>
+                                    <li>Siguran za upotrebu</li>
+                                    <li>Niži troškovi održavanja vozila</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="card-img-top" src="../../../assets/images/eurodizel.jpg" alt="Eurodizel">
+                            <p class="card-text">Eurodizel je gorivo visoke kvalitete koje odgovara najvišim europskim standardima EN 590 te zadovoljava uvjete za najnovije Euro 6 motore. Količina sumpora je manja od 0,001%, odnosno manja od 10ppm(mg/kg), a cetanski broj je veći od 51.</p>
+                        </div>
+                        <div class="d-flex flex-column p-3">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#euroDizelFeatures" aria-expanded="false" aria-controls="euroDizelFeatures" (click)="isDizelVisible = !isDizelVisible">
+                                <span>Karakteristike proizvoda:</span>
+                                <i class="bi" [ngClass]="isDizelVisible ? 'bi-arrow-bar-up' : 'bi-arrow-bar-down'"></i>
+                            </button>
+                            <div class="collapse multi-collapse" id="euroDizelFeatures">
+                                <ul>
+                                    <li>Sumpor ima manje od 10 ppm (mg/kg), što osigurava visoku učinkovitost rada sustava za obradu ispušnih plinova.</li>
+                                    <li>Više cetanskog broja povećava stabilnost pri skladištenju i manji udio čađe.</li>
+                                    <li>Izvrsna svojstva samopaljenja, poboljšana buktinja i minimalna emisija plinova čine ga ekološki prihvatljivim.</li>
+                                    <li>Izvrsne performanse pri hladnom pokretanju, čak i na niskim temperaturama.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column p-3">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#xMileDizel" aria-expanded="false" aria-controls="xMileDizel" (click)="isXMileDieselVisible = !isXMileDieselVisible">
+                                <span>Karakteristike aditiva XMILE:</span>
+                                <i class="bi" [ngClass]="isXMileDieselVisible ? 'bi-arrow-bar-up' : 'bi-arrow-bar-down'"></i>
+                            </button>
+                            <div class="collapse multi-collapse" id="xMileDizel">
+                                <ul>
+                                    <li><strong>ČISTI OKOLIŠ</strong> – XMILE je certificirani smanjivač emisije štetnih plinova, do čak 3000 g CO2 po spremniku.</li>
+                                    <li><strong>ČISTI MOTOR</strong> – Bolje sagorijevanje znači čišći motor, ventil, filter i katalizator.</li>
+                                    <li><strong>VIŠE KILOMETARA</strong> – Do čak 100 km više s jednim spremnikom.</li>
+                                    <li><strong>MANJE ČAĐE</strong> – Do čak 80% manje čađe, nema više crnog dima.</li>
+                                    <li><strong>ISPLATIVOST</strong> – Uzmite najviše za svoj novac, XMILE čisti Lijepu našu i smanjuje Vaše troškove prijevoza.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+       
+        <!--Proizvodi-->
+        <h2 class="text-center">NAŠA PONUDA PROIZVODA</h2>
+        <p class="w-75 text-center mx-auto">Unatoč tome što je PJ – Transport d.o.o. tvrtka specijalizirana za prodaju naftnih derivata, plina i transport raznih vrsta tereta u domaćem i međunarodnom cestovnom prijevozu, na našem prodajnom mjestu možete pronaći širok asortiman proizvoda iz područja auto kozmetike, motornih ulja za sve vrste cestovnih vozila kao i za dvotaktne i četverotaktne vanbrodske motore. Tu su također i akumulatori raznih kapaciteta koji pokrivaju cjelokupni program, od osobnih automobila, motocikala i mopeda pa sve do teretnih vozila.</p>
+
+        
+            <div class="row d-flex justify-content-center mx-2 text-start">
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/akumulatoriVARTA.png" alt="Akum-VARTA">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#akumVARTA" aria-expanded="false" aria-controls="akumVARTA" (click)="isAkumVARTAVisible = !isAkumVARTAVisible">
+                                <span>AKUMULATORI VARTA</span>
+                                <i class="bi" [ngClass]="isAkumVARTAVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="akumVARTA">
+                                <p>Automobilski akumulatori VARTA®, izrađeni u Njemačkoj, osmišljeni su kako bi pružili točnu razinu snage i dugovječnost za sve tipove vozila. Ako tražite akumulatore za standardna vozila, za vrhunski opremljene automobile sa sustavom Start-Stop, za električna vozila ili plovila, pronaći ćete ih na našem prodajnom mjestu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/akumulatori-TQ.jpg" alt="Akum-TQ">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#akumTQ" aria-expanded="false" aria-controls="akumTQ" (click)="isAkumTQVisible = !isAkumTQVisible">
+                                <span>AKUMULATORI TOKIĆ</span>
+                                <i class="bi" [ngClass]="isAkumTQVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="akumTQ">
+                                <p>U našoj ponudi možete pronaći akumulatore poznatog proizvođača TQ Tokić čijim asortimanom pokrivamo cjelokupni program od onog automobilskog pa sve do teretnih vozila, odnosno ako se izrazimo njihovim kapacitetom posjedujemo sve od 44 Ah do 225 Ah.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/akumulatori-EXIDE.jpeg" alt="Akum-EXIDE">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#akumEXIDE" aria-expanded="false" aria-controls="akumEXIDE" (click)="isAkumEXIDEVisible = !isAkumEXIDEVisible">
+                                <span>AKUMULATORI EXIDE</span>
+                                <i class="bi" [ngClass]="isAkumEXIDEVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="akumEXIDE">
+                                <p>U našoj ponudi možete pronaći akumulatore poznatog proizvođača Exide čijim asortimanom pokrivamo cjelokupni automobilski program, odnosno ako se izrazimo njihovim kapacitetom posjedujemo sve do 95 Ah.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center mx-2 text-start">
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/motoAkumExide.jpg" alt="Moto-Akum_EXIDE">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#akumMotoExide" aria-expanded="false" aria-controls="akumMotoExide" (click)="isAkumMotoExideVisible = !isAkumMotoExideVisible">
+                                <span>MOTO AKUMULATORI EXIDE</span>
+                                <i class="bi" [ngClass]="isAkumMotoExideVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="akumMotoExide">
+                                <p>U našoj ponudi možete pronaći akumulatore poznatog proizvođača Exide čijim asortimanom pokrivamo cjelokupni program motocikala i mopeda, odnosno ako se izrazimo njihovim kapacitetom posjedujemo sve od 4 Ah do 18 Ah.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/mobileOIL.jpg" alt="MOBILE">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#mobile" aria-expanded="false" aria-controls="mobile" (click)="isMobileVisible = !isMobileVisible">
+                                <span>MOTORNA ULJA MOBILE</span>
+                                <i class="bi" [ngClass]="isMobileVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="mobile">
+                                <p>U našem asortimanu Mobil motornih ulja možete pronaći različitu ponudu za vozila na dizel i benzinski pogon: 5W-30, 5W-40, 10W-40, 15W-40 u različitim litarskim pakiranjima.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/Shell-OIL.jpg" alt="SHELL">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#shell" aria-expanded="false" aria-controls="shell" (click)="isShellVisible = !isShellVisible">
+                                <span>MOTORNA ULJA SHELL</span>
+                                <i class="bi" [ngClass]="isShellVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="shell">
+                                <p>U našem asortimanu Shell motornih ulja možete pronaći različitu ponudu za vozila na dizel i benzinski pogon: 5W-30, 5W-40, 10W-40, 15W-40. Posebno ističemo najbolje i najpoznatije motorno ulje za vanbrodske dvotaktne motore – Shell Nautilus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center mx-2 text-start">
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/castrol-OIL.jpg" alt="CASTROL">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#castrol" aria-expanded="false" aria-controls="castrol" (click)="isCastrolVisible = !isCastrolVisible">
+                                <span>MOTORNA ULJA CASTROL</span>
+                                <i class="bi" [ngClass]="isCastrolVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="castrol">
+                                <p>U našem asortimanu Castrol motornih ulja možete pronaći različitu ponudu za vozila na dizel i benzinski pogon: 0W-30, 5W-30, 5W-40,10W-40, 15W-40. Također, mogu se pronaći motorna ulja za vanbrodske dvotaktne i četverotaktne motore.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/total-OIL.jpg" alt="TOTAL">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#total" aria-expanded="false" aria-controls="total" (click)="isTotalVisible = !isTotalVisible">
+                                <span>MOTORNA ULJA TOTAL</span>
+                                <i class="bi" [ngClass]="isTotalVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="total">
+                                <p>U našem asortimanu Total motornih ulja možete pronaći različitu ponudu za vozila na dizel i benzinski pogon: 0W-30, 5W-30, 5W-40,10W-40, 15W-40 u različitim litarskim pakiranjima.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/ina-OIL.jpg" alt="INA">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#ina" aria-expanded="false" aria-controls="ina" (click)="isInaVisible = !isInaVisible">
+                                <span>MOTORNA ULJA INA MAZIVA</span>
+                                <i class="bi" [ngClass]="isInaVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="ina">
+                                <p>Naša ponuda motornih ulja obogaćena je za iskustvo i tradiciju jednog od najstarijih proizvođača na tom području u Europi – Ina Maziva. Potpuno sintetička motorna ulja visoke kvalitete pospješuju učinkovitost vaših motora i odgovaraju na sve zahtjeve vodećih svjetskih proizvođača u autoindustriji.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+            <div class="row d-flex justify-content-center mx-2 text-start">
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/motul-OIL.jpg" alt="MOTUL">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#motul" aria-expanded="false" aria-controls="motul" (click)="isMotulVisible = !isMotulVisible">
+                                <span>MOTORNA ULJA MOTUL</span>
+                                <i class="bi" [ngClass]="isMotulVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="motul">
+                                <p>U našoj ponudi proizvoda možete pronaći širok asortiman motornih ulja marke Motul kojima se pokriva čitav program od osobnih automobila, motocikala i mopeda pa sve do vanbrodskih motora, sportskih i trkaćih vozila.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/mannol-OIL.jpeg" alt="MANNOL">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#mannol" aria-expanded="false" aria-controls="mannol" (click)="isMannolVisible = !isMannolVisible">
+                                <span>ULJA MANNOL</span>
+                                <i class="bi" [ngClass]="isMannolVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="mannol">
+                                <p>U našem asortimanu Mannol ulja možete pronaći različitu ponudu za gospodarski program (hipoindo ulje, hidraolično ulje, motorna ulja različitih gradacija) u različitim litarskim pakiranjima.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/yacco-OIL.jpg" alt="YACCO">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#yacco" aria-expanded="false" aria-controls="yacco" (click)="isYaccoVisible = !isYaccoVisible">
+                                <span>YACCO PROIZVODI</span>
+                                <i class="bi" [ngClass]="isYaccoVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="yacco">
+                                <p>U našem asortimanu Yacco proizvoda možete pronaći različitu ponudu ulja za motorna plovila, različitih gradacija (outboard 2t/4t), kao masti za pente i sprejeve za održavanje.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center mx-2 text-start">
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/nigrin-kozmetika.jpg" alt="NIGRIN">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#nigrin" aria-expanded="false" aria-controls="nigrin" (click)="isNigrinVisible = !isNigrinVisible">
+                                <span>AUTO KOZMETIKA NIGRIN</span>
+                                <i class="bi" [ngClass]="isNigrinVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="nigrin">
+                                <p>Auto mirisi, krpe, spužve i četke za čišćenje, profesionalna sredstva za čišćenje, sredstva za čišćenje vanjštine, sredstva za poliranje, tekućina za pranje stakala, proizvodi za njegu guma, sredstva za održavanje i servisiranje kao i masti za održavanje lanaca samo su dio našeg bogatog asortimana Nigrin proizvoda.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/motul-kozmetika.jpg" alt="MOTUL">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#motulk" aria-expanded="false" aria-controls="motulk" (click)="isMotulkVisible = !isMotulkVisible">
+                                <span>AUTO KOZMETIKA MOTUL</span>
+                                <i class="bi" [ngClass]="isMotulkVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="motulk">
+                                <ul>
+                                    <li>Sprejevi za njegu kokpita</li>
+                                    <li>Sprej i pjena za njegu kože</li>
+                                    <li>Sprej i sredstvo za čišćenje tkanine</li>
+                                    <li>Sredstvo za uklanjanje neugodnih mirisa</li>
+                                    <li>Sredstvo za čišćenje stakla</li>
+                                    <li>Sredstvo za čišćenje naplatka</li>
+                                    <li>Sredstvo za uklanjanje insekata</li>
+                                    <li>Sredstvo za njegu guma</li>
+                                    <li>Razne krpice mikrofibre za:
+                                        <ul>
+                                            <li>Čišćenje plastike u interijeru</li>
+                                            <li>Brisanje auta nakon pranja</li>
+                                            <li>Čišćenje prozora</li>
+                                        </ul>
+                                    </li>
+                                    <li>Spužve za pranje vozila</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/sonax-kozmetika.jpg" alt="SONAX">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#sonax" aria-expanded="false" aria-controls="sonax" (click)="isSonaxVisible = !isSonaxVisible">
+                                <span>AUTO KOZMETIKA SONAX</span>
+                                <i class="bi" [ngClass]="isSonaxVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="sonax">
+                                <ul>
+                                    <li>Paste za poliranje vozila</li>
+                                    <li>Sprejevi za njegu kokpita</li>
+                                    <li>Sprej i pjena za njegu kože</li>
+                                    <li>Sprej i sredstvo za čišćenje tkanine</li>
+                                    <li>Sredstvo za uklanjanje neugodnih mirisa</li>
+                                    <li>Sredstvo za čišćenje stakla</li>
+                                    <li>Sredstvo za čišćenje naplatka</li>
+                                    <li>Sredstvo za uklanjanje insekata</li>
+                                    <li>Sredstvo za njegu guma</li>
+                                    <li>Razne krpice mikrofibre za:
+                                        <ul>
+                                            <li>Čišćenje plastike u interijeru</li>
+                                            <li>Brisanje auta nakon pranja</li>
+                                            <li>Čišćenje prozora</li>
+                                        </ul>
+                                    </li>
+                                    <li>Šamponi sa i bez voska</li>
+                                    <li>Spužve za pranje vozila</li>
+                                    <li>Silikonski sprejevi</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center mx-2 text-start">
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/protech.png" alt="PROTECH">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#protech" aria-expanded="false" aria-controls="protech" (click)="isProtechVisible = !isProtechVisible">
+                                <span>PROTECH ASORTIMAN</span>
+                                <i class="bi" [ngClass]="isProtechVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="protech">
+                                <p>U Protech asortimanu možete pronaći kvalitetne Njemačke proizvode poput ručnih alata, alata za obradu materijala, zaštitne opreme i raznih drugih alata.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/kamperskeBoce.jpg" alt="Kamperske boce">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#kamperske" aria-expanded="false" aria-controls="kamperske" (click)="isKamperskeVisible = !isKamperskeVisible">
+                                <span>KAMPERSKE BOCE</span>
+                                <i class="bi" [ngClass]="isKamperskeVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="kamperske">
+                                <p>U našoj ponudi možete pronaći kamperske boce zapremnine 2kg, 3kg i 5kg. Također u ponudi imamo ventile za kamperske boce u HR i IT verziji kao i razne redukcijske prijelaze.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md mb-4">
+                    <div class="card d-flex flex-column">
+                        <img class="card-img-top p-3" src="../../../assets/images/products/plinska-boca.jpg" alt="Plin 10kg">
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <button class="btn btn-danger d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#plin10kg" aria-expanded="false" aria-controls="plin10kg" (click)="isPlinBocaVisible = !isPlinBocaVisible">
+                                <span>PLIN U BOCI 10KG</span>
+                                <i class="bi" [ngClass]="isPlinBocaVisible ? 'bi-dash-circle' : 'bi-plus-circle'"></i>
+                            </button>
+                            <div class="collapse" id="plin10kg">
+                                <p>U našoj ponudi možete pronaći plinske boce zapremnine 10 kg koje sadržavaju uobičajenu propan-butan smjesu idealne za korištenje u domaćinstvu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>

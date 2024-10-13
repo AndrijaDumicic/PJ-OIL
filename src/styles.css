@@ -30,9 +30,9 @@ h2 {
 }
 
 /* Stil za paragrafe */
-p {
+p,ul {
     font-family: 'Arial', sans-serif; /* Moguće je promijeniti na drugi font po želji */
-    font-size: 1.125rem; /* Veličina paragrafa */
+    font-size: 0.9rem; /* Veličina paragrafa */
     color: #555; /* Svijetla tamna boja teksta */
     line-height: 1.6; /* Visina linije za bolju čitljivost */
     margin: 1rem 0; /* Razmak iznad i ispod paragrafa */
@@ -58,10 +58,8 @@ i{
 
 .btn-danger {
     font-weight: bold; /* Bold da tekst izgleda punije */
-    font-size: 1.1rem; /* Blago povećanje fonta za isticanje */
-    letter-spacing: 0.5px; /* Malo razmakni slova radi boljeg vizualnog dojma */
-    padding: 10px 20px; /* Dodatni padding za bolju čitljivost */
-    border-radius: 8px; /* Zaobljeni rubovi za moderniji izgled */
+    font-size: 0.8rem; /* Blago povećanje fonta za isticanje */
+    
 }
 
 
